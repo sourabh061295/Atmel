@@ -1,0 +1,41 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "d:/TUHH/Semester_2/Subjects/SES/Lab/team-c2/task_3/include",
+                "d:/TUHH/Semester_2/Subjects/SES/Lab/team-c2/task_3/src",
+                "d:/TUHH/Semester_2/Subjects/SES/Lab/team-c2/lib/ses",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "d:/TUHH/Semester_2/Subjects/SES/Lab/team-c2/task_3/include",
+                    "d:/TUHH/Semester_2/Subjects/SES/Lab/team-c2/task_3/src",
+                    "d:/TUHH/Semester_2/Subjects/SES/Lab/team-c2/lib/ses",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=16000000L",
+                "PLATFORMIO=60002",
+                "__AVR_ATmega128RFA1__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "C:/Users/nidhi/.platformio/packages/toolchain-atmelavr/bin/avr-gcc.exe",
+            "compilerArgs": [
+                "-mmcu=atmega128rfa1",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
